@@ -1,0 +1,76 @@
+/* General styling for the entire application */
+.root {
+    -fx-background-color: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Label for the header */
+#downloadLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Styling for progress bars */
+.progress-bar {
+    -fx-accent: #65ade8;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 30px;
+}
+
+/* File name label styling */
+.file-name {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* Text for progress (percentage, size, speed) */
+.progress-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+/* Tab styles */
+.tab {
+    -fx-font-size: 16px;
+    -fx-background-color: #3597e1;
+    -fx-text-fill: #ffffff;
+}
+
+.tab:selected {
+    -fx-background-color: #86c1ec;
+    -fx-text-fill: #ffffff;
+}
+
+/* Styling for the overall VBox */
+.vbox {
+    -fx-padding: 15px;
+    -fx-spacing: 15px;
+}
+
+/* Set a different background color for each tab */
+.tab-pane {
+    -fx-background-color:#ffffff;
+    -fx-text-fill: white;
+}
+.button{
+    -fx-background-color: #3597e1;
+    -fx-text-fill: #ffffff;
+}
+
+#Dtab{
+    -fx-text-fill: white;
+}
+.fileHBox{
+    -fx-text-fill: black;
+}
+.vbox{
+    -fx-background-color: white;
+}
+.scroll-pane{
+    -fx-background-color: white;
+}
+
+
